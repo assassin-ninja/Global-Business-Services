@@ -1,106 +1,104 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Smith & Nephew - by Troy Borges</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS, I didn't min. because  last entry below Bootstrapthis file will override  bootstrap.min.css -->
-    <link href="assets/css/custom.css" rel="stylesheet">
-    <!-- FontAwesome icons -->
-    <link href="assets/fontawesome/css/all.min.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Smith & Nephew - by Troy Borges</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS, I didn't min. because  last entry below Bootstrapthis file will override  bootstrap.min.css -->
+  <link href="assets/css/custom.css" rel="stylesheet">
+  <!-- FontAwesome icons -->
+  <link href="assets/fontawesome/css/all.min.css" rel="stylesheet">
 </head>
 
-<body data-ng-app="borgesApp"> 
-    <nav class="navbar">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand mt-5" href="#"><img src="assets/img/logo.png" width="275" height="64" alt="logo"></a>
-          </div>
-          <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right mt20 text-center">
-                <li role="presentation" data-ng-controller="ticketsCtrl"><a href="#">Requests <span class="badge">{{tickets.length}}</span></a></li>
-                <li role="presentation"><a href="#"><i class="fas fa-shopping-cart"></i> <span class="badge">1</span></a></li>
-                <li role="presentation"><a href="#"><i class="fas fa-globe-asia fa-lg"></i> English</a></li>
-                <li role="presentation"><a href="#"><span class="badge-profile">F</span> Firth</a></li>
-              </ul>
-              <!-- Mobile Menu Only -->
-              <ul class="nav navbar-nav text-center visible-xs pl15">
-                  <li><a  href="#"><i class="fas fa-home "></i></a></li>
-                    <li><a href="#">I Have a Request</a></li>
-                    <li><a href="#">I Have a Question</a></li>
-                    <li><a href="#">I Have an Issue</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#"><i class="fas fa-search fa-lg"></i></a></li>
-                </ul>
-          </div><!-- /.nav-collapse -->
-        </div><!-- /.container -->
-      </nav> <!-- /.navbar -->
+<body data-ng-app="borgesApp">
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand mt-5" href="#"><img src="assets/img/logo.png" width="275" height="64" alt="logo"></a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right mt20 text-center">
+          <li role="presentation" data-ng-controller="ticketsCtrl"><a href="#">Requests <span class="badge">{{tickets.length}}</span></a></li>
+          <li role="presentation"><a href="#"><i class="fas fa-shopping-cart"></i> <span class="badge">1</span></a></li>
+          <li role="presentation"><a href="#"><i class="fas fa-globe-asia fa-lg"></i> English</a></li>
+          <li role="presentation"><a href="#"><span class="badge-profile">F</span> Firth</a></li>
+        </ul>
+        <!-- Mobile Menu Only -->
+        <ul class="nav navbar-nav text-center visible-xs pl15">
+          <li><a href="#"><i class="fas fa-home "></i></a></li>
+          <li><a href="#">I Have a Request</a></li>
+          <li><a href="#">I Have a Question</a></li>
+          <li><a href="#">I Have an Issue</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#"><i class="fas fa-search fa-lg"></i></a></li>
+        </ul>
+      </div><!-- /.nav-collapse -->
+    </div><!-- /.container -->
+  </nav> <!-- /.navbar -->
 
+  <div class="soft-gray">
 
+    <!-- Full Screen Background -->
+    <div class="jumbotron hero-intro-background ">
 
-
-
-
-<div class="soft-gray">
-  
-  <!-- Full Screen Background -->
-  <div class="jumbotron hero-intro-background ">
-      
       <!-- Second Menu -->
       <div class="white-transparent hidden-xs">
-          <div class="container">
-              <ul class="nav navbar-nav " >
-                <li><a class="navbar-brand" href="#"><i class="fas fa-home"></i></a></li>
-                  <li class="active"><a href="#">I Have a Requests</a></li>
-                  <li><a href="#about">I Have a Question</a></li>
-                  <li><a href="#contact">I Have an Issue</a></li>
-                  <li><a href="#contact">Contact Us</a></li>
-              </ul>
-              <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#"><i class="fas fa-search fa-lg"></i></a></li>
-              </ul>
+        <div class="container">
+          <ul class="nav navbar-nav ">
+            <li><a class="navbar-brand" href="#"><i class="fas fa-home"></i></a></li>
+            <li class="active"><a href="#">I Have a Requests</a></li>
+            <li><a href="#about">I Have a Question</a></li>
+            <li><a href="#contact">I Have an Issue</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><i class="fas fa-search fa-lg"></i></a></li>
+          </ul>
         </div>
-        </div> <!--/ Second Menu-->
+      </div>
+      <!--/ Second Menu-->
 
 
       <div class="text-center">
         <div class="center-align-elements">
-                  <!-- Welcome Intro
+          <!-- Welcome Intro
                   <div class="welcome-intro">Welcome to<br><strong>Global Business Services</strong></div>
                    -->
-                  <div data-ng-controller="welcomeIntroCtrl" class="welcome-intro">
-                      <div hello-directive></div>
-                    </div>
-                  <!--/ Welcome Intro -->
+          <div data-ng-controller="welcomeIntroCtrl" class="welcome-intro">
+            <div hello-directive></div>
+          </div>
+          <!--/ Welcome Intro -->
 
-                  <!-- Input Search Field  -->
-                  <form>
-                  <div class="input-search has-feedback center-block">
-                      <input type="search" class="form-control input-lg" placeholder="Search">
-                      <span class="glyphicon form-control-feedback" aria-hidden="true"><i class="fas fa-search fa-lg search-style"></i></span>
-                  </div> 
-                </form>
-                <!--/ Input Search Field  -->
+          <!-- Input Search Field  -->
+          <form>
+            <div class="input-search has-feedback center-block">
+              <input type="search" class="form-control input-lg" placeholder="Search">
+              <span class="glyphicon form-control-feedback" aria-hidden="true"><i class="fas fa-search fa-lg search-style"></i></span>
+            </div>
+          </form>
+          <!--/ Input Search Field  -->
         </div>
       </div>
     </div><!-- / Full Screen Background -->
 
 
     <!-- Main Content  -->
-  <div class="container">
-    <div class="row row-offcanvas row-offcanvas-right">
+    <div class="container">
+      <div class="row row-offcanvas row-offcanvas-right">
         <div class="col-xs-12 col-sm-9">
           <div class="row services-main-block">
             <div class="col-md-4">
@@ -110,13 +108,13 @@
                 <div class="services-body"><small>Purchase IT products, or get IT support</small></div>
               </div>
             </div>
- 
+
             <div class="col-md-4">
-                <div class="services-each-block">
-                  <span><img src="assets/img/pr.png" width="50" height="50" class="img-icon-size" alt="Request Procurement"></span>
-                  <div class="text-capitalize lead services-title mb0 mt2">procurement services</div>
-                  <div class="services-body mt5"><small>Request Procurement support</small></div>
-                </div>
+              <div class="services-each-block">
+                <span><img src="assets/img/pr.png" width="50" height="50" class="img-icon-size" alt="Request Procurement"></span>
+                <div class="text-capitalize lead services-title mb0 mt2">procurement services</div>
+                <div class="services-body mt5"><small>Request Procurement support</small></div>
+              </div>
             </div>
 
             <div class="col-md-4">
@@ -126,117 +124,127 @@
                 <div class="services-body"><small>Request HR support</small></div>
               </div>
             </div>
-          </div><!--/row-->
+          </div>
+          <!--/row-->
 
           <!-- LATEST NEWS -->
-        <section data-ng-controller="newsCtrl">
-          <div class="row mt20">
-            <div class="col-md-12">
-              <div class="news-main-block">
-              <h5 class="text-uppercase services-title"><strong>latest news</strong></h5>
-              <div class="accent-orange-border-bottom"></div>
-              
-              <!-- ng-repeat-->
-              <article data-ng-repeat="new in news">
-                  <header>
+          <section data-ng-controller="newsCtrl">
+            <div class="row mt20">
+              <div class="col-md-12">
+                <div class="news-main-block">
+                  <h5 class="text-uppercase services-title"><strong>latest news</strong></h5>
+                  <div class="accent-orange-border-bottom"></div>
+
+                  <!-- ng-repeat-->
+                  <article data-ng-repeat="new in news">
+                    <header>
                       <h5 class="text-capitalize services-title">{{new.title}}</h5>
-                      <div class="time-ago"><small><i class="far fa-clock fa-flip-horizontal fa-xs"></i> {{new.time}} <a href="#" class="accent-orange-text">{{new.timeLink}}</a></small></div>
-                  </header>
+                      <div class="time-ago"><small><i class="far fa-clock fa-flip-horizontal fa-xs"></i> {{new.time}}
+                          <a href="#" class="accent-orange-text">{{new.timeLink}}</a></small></div>
+                    </header>
                     <p>{{new.body}}</p>
                     <hr>
-              </article>
-              <!--/ ng-repeat-->
+                  </article>
+                  <!--/ ng-repeat-->
 
+                </div>
               </div>
             </div>
-          </div>
-        </section><!--/ LATEST NEWS -->
-        </div><!--/.col-xs-12 col-sm-9 -->
+          </section>
+          <!--/ LATEST NEWS -->
+        </div>
+        <!--/.col-xs-12 col-sm-9 -->
 
 
-      <!-- Aside tool -->
-      <aside class="aside-main-block">
-        <div class="col-xs-6 col-sm-3 sidebar-offcanvas">
-          
-          <!-- MY IT TICKETS -->
+        <!-- Aside tool -->
+        <aside class="aside-main-block">
+          <div class="col-xs-6 col-sm-3 sidebar-offcanvas">
+
+            <!-- MY IT TICKETS -->
             <section data-ng-controller="ticketsCtrl">
-                <h5 class="text-uppercase"><strong>my it tickets</strong></h5>
-                <div class="accent-orange-border-bottom"></div>
+              <h5 class="text-uppercase"><strong>my it tickets</strong></h5>
+              <div class="accent-orange-border-bottom"></div>
 
-                <!-- ng-repeat-->
-                <div data-ng-repeat="ticket in tickets">
-                  <p>{{ticket.name}}<br>
+              <!-- ng-repeat-->
+              <div data-ng-repeat="ticket in tickets">
+                <p>{{ticket.name}}<br>
                   <small><span class="text-uppercase">{{ticket.code}}</span> &#8226; {{ticket.time}}</small></p>
-                  <div class="hr-small"></div>
-                </div>
-                <!--/ ng-repeat-->
+                <div class="hr-small"></div>
+              </div>
+              <!--/ ng-repeat-->
             </section>
             <!--/ MY IT TICKETS -->
 
             <!-- DO YOU NEED HELP -->
             <section>
-            <h5 class="text-uppercase mt20"><strong>do you need help?</strong></h5>
-                <div class="accent-orange-border-bottom"></div>
-                
-  
-                <h6 class="text-uppercase mt20"><strong>hr:</strong></h6>
-                
-                <div class="display-inline-flex">
-                    <span><i class="far fa-clock fa-flip-horizontal"></i></span>
-                    <p class="line-height"> 0700-1900<span class="text-uppercase"> cst</span></p>
-                </div>
+              <h5 class="text-uppercase mt20"><strong>do you need help?</strong></h5>
+              <div class="accent-orange-border-bottom"></div>
 
-                <div class="display-flex">
-                    <span><i class="fas fa-phone fa-flip-horizontal"></i></span>
-                    <p class="line-height"> Toll Free: 844-275-6947<br> Desk Phone: #1300-1427</p>
-                </div>
 
-                <div class="display-inline-flex">
-                  <span><i class="fas fa-desktop"></i></span>
-                  <p class="line-height"><a href="mailto:Contac.HR.US@smith-nephew.com?Subject=Hello" class="text-muted"> Contac.HR.US@smith-nephew.com</a></p>
-                </div>
+              <h6 class="text-uppercase mt20"><strong>hr:</strong></h6>
+
+              <div class="display-inline-flex">
+                <span><i class="far fa-clock fa-flip-horizontal"></i></span>
+                <p class="line-height"> 0700-1900<span class="text-uppercase"> cst</span></p>
+              </div>
+
+              <div class="display-flex">
+                <span><i class="fas fa-phone fa-flip-horizontal"></i></span>
+                <p class="line-height"> Toll Free: 844-275-6947<br> Desk Phone: #1300-1427</p>
+              </div>
+
+              <div class="display-inline-flex">
+                <span><i class="fas fa-desktop"></i></span>
+                <p class="line-height"><a href="mailto:Contac.HR.US@smith-nephew.com?Subject=Hello" class="text-muted">
+                    Contac.HR.US@smith-nephew.com</a></p>
+              </div>
 
               <h6 class="text-uppercase mt20"><strong>it:</strong></h6>
-                
-                <div class="display-inline-flex">
-                    <span><i class="far fa-clock fa-flip-horizontal"></i></span>
-                    <p class="line-height"> English: 24 x 7</p>
-                </div>
 
-                <div class="display-flex">
-                    <span><i class="fas fa-phone fa-flip-horizontal"></i></span>
-                    <p class="line-height"> Toll Free: 877-449-8434<br> Desk Phone: #1300-1111</p>
-                </div>
+              <div class="display-inline-flex">
+                <span><i class="far fa-clock fa-flip-horizontal"></i></span>
+                <p class="line-height"> English: 24 x 7</p>
+              </div>
 
-                <div class="display-inline-flex">
-                  <span><i class="fas fa-desktop"></i></span>
-                  <p class="line-height"><a href="mailto:service.desk@smith-nephew.com?Subject=Hello" class="text-muted"> service.desk@smith-nephew.com</a></p>
-                </div>
-          </section>
-          <!--/ DO YOU NEED HELP -->
+              <div class="display-flex">
+                <span><i class="fas fa-phone fa-flip-horizontal"></i></span>
+                <p class="line-height"> Toll Free: 877-449-8434<br> Desk Phone: #1300-1111</p>
+              </div>
 
-        </div><!--/.sidebar-offcanvas-->
-      </aside><!--/ Aside tool -->
-    </div><!--/row-->
+              <div class="display-inline-flex">
+                <span><i class="fas fa-desktop"></i></span>
+                <p class="line-height"><a href="mailto:service.desk@smith-nephew.com?Subject=Hello" class="text-muted">
+                    service.desk@smith-nephew.com</a></p>
+              </div>
+            </section>
+            <!--/ DO YOU NEED HELP -->
 
-
-        <!-- Footer -->
-        <footer class="footer">
-            <p><i class="far fa-plus-square"></i> Feedback</p>
-        </footer>
-
-  </div> <!-- / Main Content -->
-</div> <!-- /.soft-gray -->
+          </div>
+          <!--/.sidebar-offcanvas-->
+        </aside>
+        <!--/ Aside tool -->
+      </div>
+      <!--/row-->
 
 
-<!-- Angular@1.7.4-->
-<script src="assets/js/angular.min.js"></script>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="assets/js/jquery.min.js"></script>
-<!-- Bootstrap-->
-<script src="assets/js/bootstrap.min.js"></script>
-<!-- Custom Javascript -->
-<script src="assets/js/custom.js"></script>
+      <!-- Footer -->
+      <footer class="footer">
+        <p><i class="far fa-plus-square"></i> Feedback</p>
+      </footer>
+
+    </div> <!-- / Main Content -->
+  </div> <!-- /.soft-gray -->
+
+
+  <!-- Angular@1.7.4-->
+  <script src="assets/js/angular.min.js"></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="assets/js/jquery.min.js"></script>
+  <!-- Bootstrap-->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- Custom Javascript -->
+  <script src="assets/js/custom.js"></script>
 
 </body>
+
 </html>

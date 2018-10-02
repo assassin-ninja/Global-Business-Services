@@ -3,53 +3,53 @@ body {
     background-color: #FFF;
     border-top: 4px solid #FF7200;
     font-size: 13px;
-    font-family: Ubuntu, sans-serif
+    font-family: Ubuntu, sans-serif;
 }
 
 .welcome-intro {
     font-size: 44px;
     padding-bottom: 33px;
-    line-height: 48px
+    line-height: 48px;
 }
 
 .icon-bar {
-    background-color: #FF7200
+    background-color: #FF7200;
 }
 
 .accent-orange-text {
-    color: #FF7200
+    color: #FF7200;
 }
 
 .accent-orange-border-bottom {
     border-bottom: 4px solid #FF7200;
-    margin: 12px 0 15px
+    margin: 12px 0 15px;
 }
 
 .soft-gray {
-    background-color: #EEE
+    background-color: #EEE;
 }
 
 @media screen and (max-width:768px) {
     .jumbotron {
-        margin-top: 40px
+        margin-top: 40px;
     }
 }
 
 @media screen and (min-width:768px) {
     .input-search {
-        width: 80%
+        width: 80%;
     }
 }
 
 @media screen and (min-width:992px) {
     .input-search {
-        width: 50%
+        width: 50%;
     }
 }
 
 @media screen and (min-width:1200px) {
     .input-search {
-        width: 40%
+        width: 40%;
     }
 }
 
@@ -59,42 +59,42 @@ body {
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 
 .white-transparent {
     background: #fff;
     opacity: .75;
-    height: 50px
+    height: 50px;
 }
 
 .center-align-elements {
     padding: 75px 0;
-    text-align: center
+    text-align: center;
 }
 
 .mt2 {
-    margin-top: 2px
+    margin-top: 2px;
 }
 
 .mt5 {
-    margin-top: 5px
+    margin-top: 5px;
 }
 
 .mt-5 {
-    margin-top: -5px
+    margin-top: -5px;
 }
 
 .mb0 {
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 .mt10 {
-    margin-top: 10px
+    margin-top: 10px;
 }
 
 .mt20 {
-    margin-top: 20px
+    margin-top: 20px;
 }
 
 .pl15 {
@@ -116,19 +116,19 @@ body {
     background-color: #B9B9B9;
     border-radius: 50%;
     margin-top: -4px;
-    margin-right: 5px
+    margin-right: 5px;
 }
 
 .search-style {
     padding-top: 15px;
-    padding-left: 5px
+    padding-left: 5px;
 }
 
 .services-main-block {
     border: 1px solid #DDD;
     border-radius: 5px;
     background-color: #fff;
-    padding: 15px
+    padding: 15px;
 }
 
 .services-each-block {
@@ -137,13 +137,13 @@ body {
     background-color: #FEFEFE;
     padding: 19px;
     height: auto;
-    margin: 5px 0px
+    margin: 5px 0px;
 }
 
 .services-each-block:hover {
     -ms-transform: scale(1.1);
     -webkit-transform: scale(1.1);
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
 
 .services-title {
@@ -153,12 +153,12 @@ body {
 
 .services-body {
     padding-top: 5px;
-    font-size: 12px
+    font-size: 12px;
 }
 
 .img-icon-size {
     float: left;
-    margin-right: 10px
+    margin-right: 10px;
 }
 
 .news-main-block {
@@ -174,48 +174,57 @@ body {
 
 .fa-xs {
     font-size: 9px;
-    padding-left: 5px
+    padding-left: 5px;
 }
 
 .col-md-12 {
-    padding: 0
+    padding: 0;
 }
 
 .aside-main-block {
-    font-size: 12px
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.sidebar-offcanvas {
+    margin-bottom: 30px;
 }
 
 .line-height {
     font-size: 13px;
     line-height: 20px;
-    margin-left: 1em
+    margin-left: 1em;
 }
 
 .hr-small {
     margin-top: 15px;
     margin-bottom: 15px;
     border: 0;
-    border-top: 1px solid #DDD
+    border-top: 1px solid #DDD;
+}
+
+.row-offcanvas {
+    margin-bottom: 30px;
 }
 
 .missing-hr-small {
     padding-top: 15px;
-    padding-bottom: 15px
+    padding-bottom: 15px;
 }
 
 .display-inline-flex {
-    display: inline-flex
+    display: inline-flex;
 }
 
 .display-flex {
-    display: flex
+    display: flex;
 }
 
 .footer {
     margin-top: -7px;
     padding-right: 30px;
     padding-left: 20px;
-    padding-bottom: 11px
+    padding-bottom: 11px;
 }
 
 footer {
@@ -228,41 +237,42 @@ footer {
     color: #fff;
     padding-top: 5px;
     font-size: 14px;
-    margin-right: 20px
+    margin-right: 20px;
+    cursor: pointer;
 }
 
 .jumbotron {
-    padding-top: 0
+    padding-top: 0;
 }
 
 hr {
-    border-top: 1px solid #DDD
+    border-top: 1px solid #DDD;
 }
 
 p {
-    margin: 0
+    margin: 0;
 }
 
 .badge {
     background-color: #FF7200;
     font-size: 10px;
-    padding: 4px 7px
+    padding: 4px 7px;
 }
 
 .text-muted,
 a {
-    color: #000
+    color: #000;
 }
 
 a:hover {
-    color: #FF7200
+    color: #FF7200;
 }
 
 .fa-search {
-    margin-right: 15px
+    margin-right: 15px;
 }
 
 .row {
     margin-right: -5px;
-    margin-left: -6px
+    margin-left: -6px;
 }
